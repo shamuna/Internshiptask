@@ -1,0 +1,138 @@
+body{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+#slider{margin-top: 10px;
+width:800px;
+height: 300px;
+
+
+background-image: url("image1"); 
+background-repeat: no-repeat;
+background-size: cover;
+
+
+border-radius: 20%;
+
+}
+* {
+    box-sizing: border-box;
+  }
+  .search{
+      width:90%;
+      height:80%;
+      
+      padding:120px;
+      margin-left: 30px;
+  }
+  .caption {
+    
+      display:flex;
+      justify-content: center;
+      align-items: center;
+    margin-top: -35px;
+  }
+  h3{
+   color:rgb(20, 255, 110);
+   font-size: xx-large;
+   
+  }
+  h2{
+      color:blue;
+      font-size: xx-large;
+      
+  }
+  /* Style the search field */
+  form.search input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    
+    
+    }
+    
+    form.search button{
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.search button:hover {
+    background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Pie chart */
+  .piechart {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red; /* For browsers that do not support gradients */
+  background-image: conic-gradient(red 0deg, red 50deg, green 50deg,green 140deg,yellow 140deg);
+ 
+}
+#pieentry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#legenda {
+    margin-left: 20px;
+    background-color: white;
+    padding: 5px;
+    
+  }
+  
+  .entry {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  #color-red {
+    background-color: red;
+    width:10px;
+    height:10px;
+  }
+  
+ 
+  
+  #color-yellow {
+    background-color: yellow;
+    width:10px;
+    height:10px;
+  }
+  
+  #color-green {
+    background-color: green;
+    width:10px;
+    height:10px;
+  }
+  .entry-text{
+     font-weight: bold;
+color:blue;
+margin-left: 10px;
+  }
+  #article{
+      color:blue;
+  }
